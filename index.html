@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="body-wrapper">
+    <div class="left">
+      <div class="card-frontside">
+        <img src="images/card-logo.svg" alt="">
+        <span class="card-number">0000 0000 0000 0000</span>
+        <div>
+          <span class="cardholder-name">Jane Appleseed</span>
+          <span class="expiration-date">00/00</span>
+        </div>
+      </div>
+      <div class="card-backside">
+        <span>000</span>
+      </div>
+    </div>
+    <div class="right">
+      <div class="container">
+        <div class="cardholder-name__input">
+          <label for="">CARDHOLDER NAME</label>
+          <input type="text" name="" id="" placeholder="e.g. Jane Appleseed">
+        </div> 
+        <div class="cardnumber">
+          <label for="">CARD NUMBER</label>
+          <input type="text" placeholder="e.g. 1234 5678 9123 0000">
+        </div>
+        <div class="expiration-date-cvc-container">
+          <div class="label-container">
+            <label for="" class="label-container__expiration">EXP. DATE (MM/YY)</label>
+            <label for="" class="label-container__cvc">CVC</label>
+          </div>
+          <div class="input-container">
+            <input type="text" placeholder="MM" class="month">
+            <input type="text" placeholder="YY" class="year">
+            <input type="text" placeholder="e.g. 123" class="cvc">
+          </div> 
+        </div>
+        <button class="button">Confirm</button>
+      </div>
+      <!-- Thank you!
+      We've added your card details
+      Continue -->
+    </div>
+  </div>
+</body>
+</html>
